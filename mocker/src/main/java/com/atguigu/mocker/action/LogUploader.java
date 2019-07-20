@@ -33,7 +33,6 @@ public class LogUploader {
             out.flush();
             out.close();
             int code = conn.getResponseCode();
-            System.out.println(code);
         } catch (Exception e) {
             e.printStackTrace();
         }
